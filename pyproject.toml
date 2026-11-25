@@ -1,0 +1,17 @@
+[project]
+name = "dsprog2-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "haruto", email = "s2622029@stu.musashino-u.ac.jp" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+dsprog2-2026 = "dsprog2_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
